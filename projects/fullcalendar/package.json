@@ -1,7 +1,8 @@
 {
+  "private": true,
   "name": "@fullcalendar/angular-ivy",
-  "version": "5.11.1",
-  "title": "FullCalendar Angular Component",
+  "version": "5.11.2",
+  "title": "FullCalendar Angular Component - EXPERIMENTAL - UNRELEASED",
   "description": "An official FullCalendar component for Angular",
   "keywords": [
     "angular",
