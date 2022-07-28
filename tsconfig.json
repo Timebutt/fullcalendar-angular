@@ -20,7 +20,7 @@
       "dom"
     ],
     "paths": {
-      "@fullcalendar/angular-ivy": [
+      "@fullcalendar/angular": [
         "projects/fullcalendar/src/public_api.ts"
       ],
       "@fullcalendar/angular/*": [
