@@ -16,7 +16,6 @@ import { OPTION_IS_DEEP } from './fullcalendar-options';
 @Component({
   selector: 'full-calendar',
   template: '',
-  styleUrls: ['./fullcalendar.component.scss'],
   encapsulation: ViewEncapsulation.None // the styles are root-level, not scoped within the component
 })
 export class FullCalendarComponent implements AfterViewInit, DoCheck, AfterContentChecked, OnDestroy {
