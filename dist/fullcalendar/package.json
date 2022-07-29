@@ -1,7 +1,6 @@
 {
-  "name": "@fullcalendar/angular-ivy",
-  "version": "5.11.1",
-  "title": "FullCalendar Angular Component",
+  "name": "@fullcalendar/angular",
+  "version": "5.11.2",
   "description": "An official FullCalendar component for Angular",
   "keywords": [
     "angular",
@@ -20,30 +19,30 @@
   "peerDependencies": {
     "@angular/common": "9 - 14",
     "@angular/core": "9 - 14",
-    "@fullcalendar/core": "~5.11.0",
+    "@fullcalendar/core": "~5.11.2",
     "fast-deep-equal": "^3.1.1"
   },
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
   },
-  "module": "fesm2015/fullcalendar-angular-ivy.mjs",
-  "es2020": "fesm2020/fullcalendar-angular-ivy.mjs",
-  "esm2020": "esm2020/fullcalendar-angular-ivy.mjs",
-  "fesm2020": "fesm2020/fullcalendar-angular-ivy.mjs",
-  "fesm2015": "fesm2015/fullcalendar-angular-ivy.mjs",
-  "typings": "fullcalendar-angular-ivy.d.ts",
+  "module": "fesm2015/fullcalendar-angular.mjs",
+  "es2020": "fesm2020/fullcalendar-angular.mjs",
+  "esm2020": "esm2020/fullcalendar-angular.mjs",
+  "fesm2020": "fesm2020/fullcalendar-angular.mjs",
+  "fesm2015": "fesm2015/fullcalendar-angular.mjs",
+  "typings": "fullcalendar-angular.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./fullcalendar-angular-ivy.d.ts",
-      "esm2020": "./esm2020/fullcalendar-angular-ivy.mjs",
-      "es2020": "./fesm2020/fullcalendar-angular-ivy.mjs",
-      "es2015": "./fesm2015/fullcalendar-angular-ivy.mjs",
-      "node": "./fesm2015/fullcalendar-angular-ivy.mjs",
-      "default": "./fesm2020/fullcalendar-angular-ivy.mjs"
+      "types": "./fullcalendar-angular.d.ts",
+      "esm2020": "./esm2020/fullcalendar-angular.mjs",
+      "es2020": "./fesm2020/fullcalendar-angular.mjs",
+      "es2015": "./fesm2015/fullcalendar-angular.mjs",
+      "node": "./fesm2015/fullcalendar-angular.mjs",
+      "default": "./fesm2020/fullcalendar-angular.mjs"
     }
   },
   "sideEffects": false
