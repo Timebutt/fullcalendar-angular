@@ -1,6 +1,6 @@
 {
   "name": "@fullcalendar/angular",
-  "version": "5.11.2",
+  "version": "6.0.0-beta.1",
   "title": "FullCalendar Angular Component",
   "description": "An official FullCalendar component for Angular",
   "keywords": [
@@ -15,32 +15,32 @@
     "url": "https://github.com/fullcalendar/fullcalendar-angular.git"
   },
   "dependencies": {
-    "@fullcalendar/core": "~5.11.2",
-    "fast-deep-equal": "^3.1.1",
-    "tslib": "^2.0.0"
+    "@fullcalendar/core": "6.0.0-beta.1",
+    "fast-deep-equal": "^3.1.3",
+    "tslib": "^2.4.0"
   },
   "peerDependencies": {
     "@angular/common": "9 - 14",
     "@angular/core": "9 - 14",
-    "@fullcalendar/core": "~5.11.2",
-    "fast-deep-equal": "^3.1.1"
+    "@fullcalendar/core": "6.0.0-beta.1",
+    "fast-deep-equal": "^3.1.3"
   },
   "engines": {
-    "node": ">= 6.9.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 14.0.0",
+    "npm": ">= 8.0.0"
   },
   "module": "fesm2015/fullcalendar-angular.mjs",
   "es2020": "fesm2020/fullcalendar-angular.mjs",
   "esm2020": "esm2020/fullcalendar-angular.mjs",
   "fesm2020": "fesm2020/fullcalendar-angular.mjs",
   "fesm2015": "fesm2015/fullcalendar-angular.mjs",
-  "typings": "fullcalendar-angular.d.ts",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./fullcalendar-angular.d.ts",
+      "types": "./index.d.ts",
       "esm2020": "./esm2020/fullcalendar-angular.mjs",
       "es2020": "./fesm2020/fullcalendar-angular.mjs",
       "es2015": "./fesm2015/fullcalendar-angular.mjs",
@@ -48,8 +48,5 @@
       "default": "./fesm2020/fullcalendar-angular.mjs"
     }
   },
-  "sideEffects": false,
-  "scripts": {
-    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
-  }
+  "sideEffects": false
 }
