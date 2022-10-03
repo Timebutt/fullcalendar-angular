@@ -3,5 +3,9 @@
   "dest": "../../dist/fullcalendar",
   "lib": {
     "entryFile": "src/public_api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": [
+    "@fullcalendar/core",
+    "fast-deep-equal"
+  ]
 }
