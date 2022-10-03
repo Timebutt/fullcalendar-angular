@@ -20,9 +20,9 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "9 - 13",
-    "@angular/core": "9 - 13",
-    "@fullcalendar/core": "~5.11.0",
+    "@angular/common": "9 - 14",
+    "@angular/core": "9 - 14",
+    "@fullcalendar/core": "~5.11.2",
     "fast-deep-equal": "^3.1.1"
   },
   "engines": {
