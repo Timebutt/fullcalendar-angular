@@ -1,5 +1,5 @@
 {
-  "name": "@fullcalendar/angular",
+  "name": "@benpsnyder/fullcalendar-angular-ivy",
   "version": "6.0.0-beta.1",
   "title": "FullCalendar Angular Component",
   "description": "An official FullCalendar component for Angular",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar-angular.git"
+    "url": "https://github.com/benpsnyder/fullcalendar-angular.git"
   },
   "dependencies": {
     "@fullcalendar/core": "6.0.0-beta.1",
@@ -48,5 +48,17 @@
       "default": "./fesm2020/fullcalendar-angular.mjs"
     }
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/fullcalendar/fullcalendar-angular/issues"
+  },
+  "homepage": "https://github.com/fullcalendar/fullcalendar-angular#readme",
+  "main": "esm2020/fullcalendar-angular.mjs",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Snyder"
 }
